@@ -3,6 +3,7 @@ import LoginPopup from "../../components/pop-ups/LoginPopup";
 import SignupPopup from "../../components/pop-ups/SignupPopup";
 import { Estilera } from "./style";
 import { Botaes } from "./style";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [showLoginPopup, setShowLoginPopup] = useState(false);
@@ -23,7 +24,15 @@ const Home = () => {
           open={showSignupPopup}
           onClose={() => setShowSignupPopup(false)}
         />
-
+        <Link to="/eventoX">
+          <Botaes>evento</Botaes>
+        </Link>
+        <Link to="/eventos">
+          <Botaes>Lista de eventos</Botaes>
+        </Link>
+        <Link to="/minha-conta">
+          <Botaes>Minha conta</Botaes>
+        </Link>
         <div className="fundoteste">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
