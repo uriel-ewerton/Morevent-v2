@@ -1,0 +1,53 @@
+.ConteinerCertificado
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Certificado 
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    margin-left: 250px;
+    height: 90px;
+    width: 950px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 60px;
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+    top: -430px;
+}
+
+.Nome
+{
+    color:rgba(39, 45, 72, 1);
+}
+
+
+
+.nCertificado
+{
+    margin-right: 45px;
+    color:rgba(39, 45, 72, 1);
+}
+
+.Situacao
+{
+    color: green;
+}
+
+
+.Certificado:hover
+{
+    cursor: pointer;
+    background-color: rgb(190, 185, 185);
+    transition:0.8s;
+}
+  

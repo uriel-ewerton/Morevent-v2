@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+
+}
+
+.cabecalho
+{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #292E49 0%, rgba(83, 105, 118, 0.91) 100%);
+}
+
+.logo
+{
+    width: 55px;
+    padding-right: 30px;
+    margin-top:10px;
+    margin-bottom: 8px;
+    margin-right: 1050px;
+    margin-left:20px;
+}
+
+.MorEventLogo
+{
+    margin-left: 10px;
+}
+
+.Linha
+{
+    margin-left: 90px;
+}
+
+
+.Icone_usuario1
+{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.eventos
+{
+    color:white;
+}
+
+.paragrafoEventos
+{
+    font-size: 30px;
+    margin-left: -200px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+
+.IconePesquisar
+{
+    margin-left: -730px;
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+
+.BarraPesquisa
+{
+    font-size: 24px;
+    color: white;
+    height: 25px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    background:none;
+    border:none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+

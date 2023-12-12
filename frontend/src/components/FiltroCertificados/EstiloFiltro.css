@@ -1,0 +1,81 @@
+.BordaFiltro
+{
+    display: flex; /*Estabelecendo o display flex para que os elementos de dentro da div se 
+    ajustem às mudanças*/
+    flex-direction: column; /*Exibe os elementos em COLUNAS*/
+    margin-left: 25px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    width: 250px; /*Ajustando a largura da borda*/
+    height: 500px; /*Ajustando a altura da borda*/
+}
+
+.TituloFiltro 
+{
+    color: white;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #272D48;
+    border-radius: 30px;
+    border-color: #272D48;
+    width: 100%; /*Ajustando a largura da borda*/
+    height: 55px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center; /*Adicionando a propriedade text-align*/
+}
+
+.TextoFiltro
+{
+    text-align: center; /*Alinhando o texto no centro da*/
+    margin-top: 10px;
+    text-decoration: underline; /*Estabelecendo um sublinhado*/
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+}
+
+.OpcoesEventos
+{
+    display: flex; /*Estabelecendo o display flex para que os elementos de dentro da div se 
+    ajustem às mudanças*/
+    flex-direction: column; /*Exibe os elementos em COLUNAS*/
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Op
+{
+    display: flex; /*Estabelecendo o display flex para que os elementos de dentro da div se 
+    ajustem às mudanças*/
+    flex-direction: row; /*Adicionando a propriedade flex-direction*/
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center; /*Adicionando a propriedade align-items*/
+}
+
+.Op a
+{
+    margin-top:10px;
+    margin-left: 10px; /*Distanciando o texto da caixa de seleção*/
+}
+
+.botaoEventos
+{
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.botaoEventos:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 83, 133);
+    transition: 1s;
+}
+
+
+
+
+

@@ -1,0 +1,247 @@
+.background{
+    width: fit-content;
+    height: fit-content;
+    background: #FFF;
+    display: flex;
+}
+
+.backgroundFiltros{
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    display: block;
+}
+
+h2{
+    width: 70%;
+    padding-left: 18px;
+    padding-bottom: 12px;
+    padding-top: 25px;
+    letter-spacing: 4.68px;
+    font-weight: bold;
+}
+
+/* Estilo para ocultar os checkboxes padrão */
+.checkbox[type="checkbox"] {
+    display: none;
+}
+  
+/* Estilo para os rótulos (labels) .day */
+.box{
+    margin-left: 9px;
+    width: 20%;
+    display: block;
+    position: relative;
+    padding-left: 45px; /* Espaço para o ícone de marcação */
+    cursor: pointer;
+    line-height: 1.5;
+    color: #272D48;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.68px;
+}
+  
+/* Estilo para a caixa de seleção personalizada */
+.box:before {
+    content: "";
+    position: absolute;
+    left: 8%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #272D48;
+    background-color: #FFF;
+    border-radius: 9px;
+}
+  
+/* Estilo para marcar a caixa quando estiver marcada */
+.checkbox[type="checkbox"]:checked + .box:before {
+    background-color: #272D48; /* Cor de fundo quando marcado */
+}
+  
+/* Estilo para adicionar um ícone de marcação (pode ser personalizado) */
+.box:after {
+    content: "\2713"; /* Código Unicode para o caractere de marca de seleção */
+    font-size: 16px;
+    color: #fff;
+    position: absolute; 
+    left: 13%;
+    top: 0%;
+    opacity: 0;
+}
+  
+/* Estilo para mostrar o ícone de marcação quando a caixa está marcada */
+.checkbox[type="checkbox"]:checked + .box:after {
+    opacity: 1;
+}
+
+/* Estilo para o calendário*/
+.input_data[type='text'] {
+    text-align: right;
+    margin-left: 18px;
+    background-color: #272d48;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    color: #FFF;
+    letter-spacing: 4px;
+    width: 62%;
+    font-size: 22px;
+}
+
+/* Estilo para o ícone do calendário*/
+.IconCalendar{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    top: 31%;
+}
+
+/* Estilo para a linha divisória do calendário*/
+.linha3{
+    position: absolute;
+    z-index: 1;
+    top: 31.5%;
+    margin-left: 63px;
+    width: 3px;
+}
+
+.IMGS{
+    display: flex;
+}
+
+/* Estilo para a linha divisória entre calendário e filtros*/
+.linha4{
+    display: block;
+    margin-top: 15px;
+    margin-left: 9px;
+    width: 69%;
+}
+
+/* Estilo para a seta para baixo 1 */
+.setaParaBaixo1{
+    position: absolute;
+    background-color: #FFF;
+    left: 2%;
+    cursor: pointer;
+}
+
+/* Estilo para a seta para baixo 2 */
+.setaParaBaixo2{
+    position: absolute;
+    background-color: #FFF;
+    left: 2%;
+    cursor: pointer;
+}
+
+/* Estilo para os tipos de eventos(Pequeno espaçamento entre eles) */
+.filter_txts .box, .filter_txts-Ativo .box{
+    margin-bottom: 20px;
+}
+
+/* Estilo para manter os filtros de horario escondido */
+.Horario_Data{
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    transition: .2s;
+}
+
+/* Estilo para manter os filtros de horario ativos */
+.Horario_Data_Ativo{
+    opacity: 1;
+    height: fit-content;
+    transition: .2s;
+}
+
+/* Estilo para os o conjunto de tipos de eventos escondido*/
+.filter_txts{
+    width: 240px;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: .2s;
+}
+
+/* Estilo para os o conjunto de tipos de eventos ativo*/
+.filter_txts_Ativo{
+    margin-bottom: 20px;
+    width: 240px;
+    opacity: 1;
+    height: fit-content;
+    transition: .2s;
+}
+
+.backgroundBarra{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+.BarraDiv{
+    margin-top: 10px;
+    width: fit-content;
+    height: 600px;
+}
+
+/* Estilo para os títulos dos tipos de eventos(direita) */
+.h2eventos{
+    margin-left: 30px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+/* Estilo para os nomes das categorias(títulos) */
+.eventos{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Estilo para organizar em linha os eventos */
+.categoria{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Estilo para organizar eventos em sequência(espaçamento) */
+.img_nome_evento{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+/* Estilo para a imagem do evento*/
+.imgEvento{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Estilo para as setas para a direita */
+.setaDireita{
+    justify-content: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+/* Estilo para os nomes dos eventos */
+.categoria a{
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color:#272D48;
+    width: fit-content;
+    height: fit-content;
+}
+
+.ultimo{
+    margin-bottom: 30px;
+}

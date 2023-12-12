@@ -1,0 +1,106 @@
+.background{
+    background-color: #FFF;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.AreaIngressos{
+    display: flex;
+    flex-direction: column;
+    margin-top: -3px;
+    padding-top: 30px;
+    margin-bottom: -1px;
+    width: 1307px;    
+    height: fit-content;
+    border: 3px solid #272D48;
+    background: #FFF;
+}
+
+.OrgaTitulo{
+    display: block;
+}
+
+.Titulo{
+    color: #272D48;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 16px;
+    margin-bottom: -12px;
+}
+
+.linha{
+    margin-left: 36px;
+}
+
+.TiposIngressos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.AreaIngressoMeia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 572px;    
+    height: fit-content;
+    border: 3px solid #272D48;
+    background: #FFF;
+}
+
+.NomeIngresso_Preco{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Preco{
+    margin-top: 10px;
+}
+
+.AreaIngressoInteiro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 572px;    
+    height: fit-content;
+    border: 3px solid #272D48;
+    background: #FFF;
+}
+
+.botaoComprar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: fit-content;
+}
+
+.botaoComprarIngressos{
+    background: #272D48;
+    padding: 16px;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 42px;
+    margin-bottom: 28px;
+    cursor: pointer;
+}

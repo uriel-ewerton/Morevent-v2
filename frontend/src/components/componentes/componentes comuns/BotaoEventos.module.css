@@ -1,0 +1,17 @@
+.botaoEventos {
+    display: block;
+    font-size: 28px;
+    letter-spacing: 6px;
+    color:white;
+    height: auto;
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.linha2 {
+    display: block;
+    width: 80%;
+    height: auto;
+}

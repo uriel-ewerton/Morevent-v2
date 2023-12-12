@@ -1,0 +1,28 @@
+*
+{
+    font-family: 'Josefin Sans';
+}
+
+.sair 
+{
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(39,45,72,1);
+    margin-top: 15px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+
+.sair-div
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

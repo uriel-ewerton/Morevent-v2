@@ -1,0 +1,24 @@
+.botoes{
+    align-items: center;
+    display: flex;
+}
+
+.botaoLogin{
+    font-size: 28px;
+    padding-right: 12px;
+    color:white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoCadastrar{
+    font-size: 28px;
+    background-color: #272d48;
+    padding: 12px;
+    margin-right: 17px;
+    border-radius: 9px;
+    color:white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+.barraPesquisa
+{
+    color: white;
+    display: flex; /*Usado para deixar os elementos dentro da "caixa" flexíveis. Isto é: se o tamanho
+    da "caixa"(que nesse caso é a div "barraPesquisa" mudar, os itens dentro dela se ajustarão à mudança*/
+    align-items: center;
+    background-color: #272D48; /*Definindo a cor de fundo da div "Barra de pesquisa"*/
+    border: 5px solid #272D48; /*Definindo o estilo da borda e a cor*/
+    border-radius: 25px; /*Definindo o "arredondamento" da borda*/
+    margin: 15px; /*Definindo aqui a margem da borda em relação a tela(distanciando a borda das laterais
+    da tela*/
+    margin-top: 10px;
+}
+
+.IngressoI
+{
+    margin-top: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.TituloCertificados
+{
+    margin-left: 5px;
+    border-bottom: 1.5px solid rgb(255, 255, 255); /*Outra maneira de fazer um sublinhado*/
+    margin-bottom: 5px; /*Aqui definimos a margem do texto sublinhado em relação a parte de baixo*/
+}
+
+
+.TextoCinza
+{
+    color: rgb(160, 138, 138);
+    font-size: small;
+    margin-left: 80px;
+}
+
+.Pesquisa
+{
+    position: relative; /*
+    O position relative é usado quando queremos alterar a 
+    posição de um elemento tendo como referência a posição inicial dele. 
+    Ao aplicarmos essa propriedade em um elemento, ele não muda de posição, 
+    pois já vai estar posicionado em sua posição de referência.*/
+    background-color: rgb(255, 255, 255);
+    display: flex; /*Usado para deixar os elementos dentro da "caixa" flexíveis. Isto é: se o tamanho
+    da "caixa"(que nesse caso é a div "pesquisa" mudar, os itens dentro dela se ajustarão à mudança*/
+    align-items: center;
+    border-radius: 15px; /*Definindo o arredondamento da borda*/
+    margin-left: 420px;
+    margin-bottom: 6px;
+    height: 30px; /*Ajustando a altura da barra de pesquisa*/
+    width: 450px; /*Ajustando a largura da barra de pesquisa*/
+}
+
+.IconeBuscar
+{
+    margin-left: 3px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 1; /*Estabelece que o elemento ícone ficará sobreposto em relação à caixa de pesquisa.
+    Se esse esse 'z-inde' for removido, o icone ficará "atrás" da caixa de pessquisa*/
+}
+
+.CaixaTexto
+{
+    position: absolute; /*Quando um elemento é definido como position: absolute, ele é posicionado em 
+    relação aos seus ancestrais que têm um position diferente de static 
+    (como relative, absolute, ou fixed). Se nenhum ancestral tiver uma posição definida, 
+    ele será posicionado em relação ao documento HTML.*/
+    padding-left: 30px;
+    height: 30px; /*Ajustando a altura da barra de pesquisa*/
+    width: 450px; /*Ajustando a largura da barra de pesquisa*/
+    border-radius: 16px; /*Definindo o arredondamento da borda*/
+    border: none; /*Removendo a borda da barar de pesquisa*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none; /*Estabelece que a "linha de fora" não será preenchida com nenhuma borda assim
+    que clicarmos na caixa de texto*/
+}
+
+

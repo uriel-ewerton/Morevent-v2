@@ -1,0 +1,11 @@
+.linha 
+{
+    display: flex;
+    justify-content: center;
+}
+  
+.coluna 
+{
+    width: 50%;
+    text-align: center;
+}

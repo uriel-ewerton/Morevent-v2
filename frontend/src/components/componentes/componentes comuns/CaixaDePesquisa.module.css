@@ -1,0 +1,30 @@
+/* Estilo para o ícone de pesquisa */
+.searchIcon {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Estilo para o input da pesquisa*/
+.entrada{
+    background-color: transparent;
+    text-align: left;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    width: auto;
+    height: fit-content;
+    color: white;
+}
+
+/* Estilo para a linha abaixo da barra de pesquisa */
+.linha{
+    display: block;
+    width: 80%;
+    margin-bottom: 9px;
+}
+
+.entrada::placeholder{
+    color: white;
+}

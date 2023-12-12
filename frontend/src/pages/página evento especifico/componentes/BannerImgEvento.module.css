@@ -1,0 +1,21 @@
+.imgBanner{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bannerCostas{
+    margin-top: -6px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.bannerFrente{
+    width: 100%;
+    height: 480px;
+    z-index: 2;
+    position: absolute;
+}

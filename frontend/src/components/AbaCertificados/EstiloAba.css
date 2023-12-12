@@ -1,0 +1,25 @@
+.Sessoes
+{
+    position: absolute; 
+    display: flex;
+    top: 36%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #272D48;
+    border-radius: 20px;
+    width: 920px;
+    height: 48px;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+
+.Sessoes p
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
