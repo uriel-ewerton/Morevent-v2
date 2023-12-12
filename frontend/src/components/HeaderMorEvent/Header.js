@@ -3,8 +3,8 @@ import Icone_usuario1 from './HeaderImgs/Icone_usuario1.png';
 import MorEvent from './HeaderImgs/MorEvent(logo).png';
 import LinhaHorizontal from './HeaderImgs/LinhaHorizontal.png';
 import Icone_Pesquisar from './HeaderImgs/Icone_Pesquisar.png';
-
-import './EstiloHeader.css'
+import { Link } from "react-router-dom";
+import './EstiloHeader.css';
 
 function Header(){
     const [texto, mudaTexto] = useState('Buscar evento');
@@ -42,7 +42,9 @@ function Header(){
             </div>
 
             <div className = "eventos">
+                <Link to="/eventos">
                 <p1 className = "paragrafoEventos">eventos</p1>
+                </Link>
             </div>
 
             <a className = "usuario" href = "/minha-conta">
